@@ -25,6 +25,8 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Folder Include="Week7\" />
+    <Folder Include="Week6\" />
     <Folder Include="Quiz\" />
     <Folder Include="Week4\" />
     <Folder Include="Week2\" />
@@ -33,8 +35,25 @@
     <Folder Include="Week1\ProblemSet1\" />
     <Folder Include="Week2\ProblemSet3\" />
     <Folder Include="Week4\ProblemSet4\" />
+    <Folder Include="Week6\ProblemSet6\" />
+    <Folder Include="Week7\ProblemSet7\" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Quiz\Problem4.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Quiz\Problem5.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Quiz\Problem6.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Quiz\Problem7.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Quiz\Problem8.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Week1\ProblemSet1\ps1-problem1.py">
       <SubType>Code</SubType>
     </Compile>
@@ -62,9 +81,20 @@
     <Compile Include="Week4\ProblemSet4\ps4a.py" />
     <Compile Include="Week4\ProblemSet4\ps4b.py" />
     <Compile Include="Week4\ProblemSet4\test_ps4a.py" />
+    <Compile Include="Week6\ProblemSet6\ps6_encryption.py" />
+    <Compile Include="Week6\ProblemSet6\ps6_recursion.py" />
+    <Compile Include="Week7\ProblemSet7\feedparser.py" />
+    <Compile Include="Week7\ProblemSet7\project_util.py" />
+    <Compile Include="Week7\ProblemSet7\ps7.py" />
+    <Compile Include="Week7\ProblemSet7\ps7_test.py" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Week4\ProblemSet4\words.txt" />
+    <Content Include="Week6\ProblemSet6\fable.txt" />
+    <Content Include="Week6\ProblemSet6\ps6_pseudo.txt" />
+    <Content Include="Week6\ProblemSet6\story.txt" />
+    <Content Include="Week6\ProblemSet6\words.txt" />
+    <Content Include="Week7\ProblemSet7\triggers.txt" />
   </ItemGroup>
   <ItemGroup>
     <InterpreterReference Include="{9a7a9026-48c1-4688-9d5d-e5699d47d074}\2.7" />

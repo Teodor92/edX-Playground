@@ -67,8 +67,21 @@
     <Compile Include="Week3\L6Problem2.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Week6\L11Problem4.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Week6\L11Problem5.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Week6\L11Problem6.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Week6\L12Problem3.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Week6\" />
     <Folder Include="Week3\" />
     <Folder Include="Week2\" />
   </ItemGroup>
