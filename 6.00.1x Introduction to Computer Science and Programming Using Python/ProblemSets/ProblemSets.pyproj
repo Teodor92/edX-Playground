@@ -25,6 +25,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Folder Include="Exam\" />
     <Folder Include="Week7\" />
     <Folder Include="Week6\" />
     <Folder Include="Quiz\" />
@@ -39,6 +40,21 @@
     <Folder Include="Week7\ProblemSet7\" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Exam\Problem62.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Exam\Problem4Part2.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Exam\Problem4Part1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Exam\Problem5.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Exam\Problem61.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Quiz\Problem4.py">
       <SubType>Code</SubType>
     </Compile>
