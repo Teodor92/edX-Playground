@@ -1,2 +1,2 @@
-# Python-Playground
-Python Playground
+# edX Playground
+Code writen for edX courses
