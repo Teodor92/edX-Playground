@@ -5,13 +5,16 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>a9c3b489-c6af-42cc-9037-8a241f5a0dc8</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>ProblemSets.py</StartupFile>
+    <StartupFile>
+    </StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
     <Name>ProblemSets</Name>
     <RootNamespace>ProblemSets</RootNamespace>
+    <InterpreterId>{9a7a9026-48c1-4688-9d5d-e5699d47d074}</InterpreterId>
+    <InterpreterVersion>2.7</InterpreterVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -22,7 +25,41 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="ProblemSets.py" />
+    <InterpreterReference Include="{9a7a9026-48c1-4688-9d5d-e5699d47d074}\2.7" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Exam\" />
+    <Folder Include="Week6\" />
+    <Folder Include="Quiz\" />
+    <Folder Include="Week3\" />
+    <Folder Include="Week2\" />
+    <Folder Include="Week2\ProblemSet2\" />
+    <Folder Include="Week3\ProblemSet3\" />
+    <Folder Include="Week6\ProblemSet6\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Exam\Problem3-PartA.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Quiz\Problem5-2.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Quiz\Problem6-1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Quiz\Problem6-2.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Week2\ProblemSet2\ps2.py" />
+    <Compile Include="Week2\ProblemSet2\ps2_visualize.py" />
+    <Compile Include="Week3\ProblemSet3\ps3b.py" />
+    <Compile Include="Week6\ProblemSet6\clusterCities.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Week2\ProblemSet2\ps2_verify_movement27.pyc" />
+    <Content Include="Week2\ProblemSet2\ps2_visualize.pyc" />
+    <Content Include="Week3\ProblemSet3\ps3b_precompiled_27.pyc" />
+    <Content Include="Week6\ProblemSet6\cityTemps.txt" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
